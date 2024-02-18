@@ -3,7 +3,7 @@
 #include <fstream>
 #include <iostream>
 
-void nomain(int argc, char** argv) {
+int main(int argc, char** argv) {
 	employee empl;
 	std::cout << "Passed " << argc << " args\n";
 
@@ -20,4 +20,5 @@ void nomain(int argc, char** argv) {
 	}
 	file.close();
 	std::cout << "File has been written" << std::endl;
+	return 0;
 }
