@@ -1,7 +1,13 @@
-#include "Employee.h"
 #include <string>
 #include <fstream>
 #include <iostream>
+
+struct employee {
+	int num;
+	char name[10];
+	double hours;
+};
+
 
 int main(int argc, char** argv) {
 	employee empl;
