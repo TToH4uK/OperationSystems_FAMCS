@@ -6,7 +6,7 @@
 #include <conio.h>
 #include <windows.h>
 
-int notmain(int argc, char** argv) {
+int main(int argc, char** argv) {
 	employee empl;
 	std::string inputName = argv[1];
 	std::string outputName = argv[2];
