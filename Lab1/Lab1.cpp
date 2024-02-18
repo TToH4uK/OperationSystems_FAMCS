@@ -2,9 +2,14 @@
 #include <fstream>
 #include <windows.h>
 #include <conio.h>
-#include "Employee.h"
 #include <vector>
 #include <string>
+
+struct employee {
+	int num;
+	char name[10];
+	double hours;
+};
 
 int main() {
 	std::string bin_name;
