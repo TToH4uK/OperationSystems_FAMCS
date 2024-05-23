@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 include_directories(src)
 
-add_executable(MyProject src/main.cpp)
+add_executable(MyProject src/main.cpp src/creator.cpp src/reporter.cpp)
 
 add_subdirectory(googletest)
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
